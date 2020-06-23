@@ -1,0 +1,46 @@
+\documentclass{article}
+
+\usepackage{polyglossia}
+\setmainlanguage{italian}
+\setotherlanguage{japanese}
+\newfontfamily\japanesefont{BIZ UDGothic}
+
+\usepackage[landscape, margin=1in]{geometry}
+
+\usepackage{multirow}
+\renewcommand{\arraystretch}{1.5}
+
+\title{Hiragana e katakana}
+\author{Mattia Martelli}
+
+\begin{document}
+
+    \maketitle
+
+    \tableofcontents
+
+    \section{Hiragana e katakana}
+
+        \centering
+        \begin{japanese}
+            \begin{tabular}{ | c | c | c | c | c | c | c | c | c | c | c | }
+                \hline
+                \multirow{5}{*}{ん ン ｎ}
+                    & わ ワ wa & ら ラ ra & や ヤ ya & ま マ ma & は ハ ha & な ナ na & た タ ta & さ サ sa & か カ ka & あ ア a\\
+                    \cline{2-11}
+                    & ゐ ヰ wi & り リ ri & & み 三 mi & ひ ヒ hi & に 二 ni & ち チ chi & し シ shi & き キ ki & い イ i\\
+                    \cline{2-11}
+                    & & る ル ru & ゆ ユ yu & む ム mu & ふ フ fu & ぬ ヌ nu & つ ツ tsu & す ス su & く ク ku & う ウ u\\
+                    \cline{2-11}
+                    & ゑ ヱ we & れ レ re & & め メ me & へ ヘ he & ね ネ ne & て テ te & せ セ se & け ケ ke & え エ e\\
+                    \cline{2-11}
+                    & を ヲ wo & ろ ロ ro & よ ヨ yo & も モ mo & ほ ホ ho & の ノ no & と ト to & そ ソ so & こ コ ko & お オ o\\
+                \hline
+            \end{tabular}
+        \end{japanese}
+
+        \bigskip
+
+        \textbf{Nota}: i kana relativi ai suoni \textjapanese{wi} e \textjapanese{we} sono oramai caduti in disuso nell'uso comune.
+
+\end{document}
