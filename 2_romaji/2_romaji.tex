@@ -1,0 +1,233 @@
+\documentclass{article}
+
+\usepackage{polyglossia}
+\setmainlanguage{italian}
+\setotherlanguage{japanese}
+\newfontfamily\japanesefont{BIZ UDGothic}
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{multirow,longtable}
+\renewcommand{\arraystretch}{1.5}
+
+\title{R\={o}maji}
+\author{Mattia Martelli}
+
+\usepackage{hyperref}
+\hypersetup{
+    unicode=true,
+    bookmarksnumbered=true,
+    bookmarksopen=false,
+    hidelinks,
+    pdfauthor={Mattia Martelli},
+    pdftitle={R\={o}maji}
+}
+
+\begin{document}
+
+    \maketitle
+
+    La seguente tabella racchiude la scrittura in kana ed i quattro principali sistemi di romanizzazione. Gli stili
+    Hepburn, Kunrei e Nihon, anche detto Nippon, si utilizzano per trascrivere il giapponese utilizzando l'alfabeto
+    latino, mentre lo stile W\={a}puro nasce per permettere di digitare i caratteri giapponesi utilizzando tastiere
+    occidentali.
+
+        \begin{center}
+            \begin{japanese}
+            \begin{longtable}{|c|c c c|c|}
+                \hline
+                \textitalian{\textbf{Kana}} & \textitalian{\textbf{Nihon}} & \textitalian{\textbf{Kunrei}} & \textitalian{\textbf{Hepburn}} & \textitalian{\textbf{Wāpuro}} \\ \hline
+                \textbf{かな} & \textbf{日本} & \textbf{訓令} & \textbf{ヘボン} & \textbf{ワープロ} \\ \hline\hline
+                あ ア & a &&& a \\ \hline
+                い イ & i &&& i, yi \\ \hline
+                う ウ & u &&& u \\ \hline
+                え エ & e &&& e \\ \hline
+                お オ & o &&& o \\ \hline
+                か カ & ka &&& ka \\ \hline
+                き キ & ki &&& ki \\ \hline
+                く ク & ku &&& ku \\ \hline
+                け ケ & ke &&& ke \\ \hline
+                こ コ & ko &&& ko \\ \hline
+                が ガ & ga &&& ga \\ \hline
+                ぎ ギ & gi &&& gi \\ \hline
+                ぐ グ & gu &&& gu \\ \hline
+                げ ゲ & ge &&& ge \\ \hline
+                ご ゴ & go &&& go \\ \hline
+                さ サ & sa &&& sa \\ \hline
+                し シ & si && shi & shi, si \\ \hline
+                す ス & su &&& su \\ \hline
+                せ セ & se &&& se \\ \hline
+                そ ソ & so &&& so \\ \hline
+                ざ ザ & za &&& za \\ \hline
+                じ ジ & zi && ji & ji, zi \\ \hline
+                ず ズ & zu &&& zu \\ \hline
+                ぜ ゼ & ze &&& ze \\ \hline
+                ぞ ゾ & zo &&& zo \\ \hline
+                た タ & ta &&& ta \\ \hline
+                ち チ & ti && chi & chi, ti \\ \hline
+                つ ツ & tu && tsu & tsu, tu \\ \hline
+                て テ & te &&& te \\ \hline
+                と ト & to &&& to \\ \hline
+                だ ダ & da &&& da \\ \hline
+                ぢ ヂ & di & zi & ji & dhi, di \\ \hline
+                づ ヅ & du & zu && du, dzu \\ \hline
+                で デ & de &&& de \\ \hline
+                ど ド & do &&& do \\ \hline
+                な ナ & na &&& na \\ \hline
+                に ニ & ni &&& ni \\ \hline
+                ぬ ヌ & nu &&& nu \\ \hline
+                ね ネ & ne &&& ne \\ \hline
+                の ノ & no &&& no \\ \hline
+                は ハ & ha &&& ha \\ \hline
+                ひ ヒ & hi &&& hi \\ \hline
+                ふ フ & hu && fu & fu, hu \\ \hline
+                へ ヘ & he &&& he \\ \hline
+                ほ ホ & ho &&& ho \\ \hline
+                ば バ & ba &&& ba \\ \hline
+                び ビ & bi &&& bi \\ \hline
+                ぶ ブ & bu &&& bu \\ \hline
+                べ ベ & be &&& be \\ \hline
+                ぼ ボ & bo &&& bo \\ \hline
+                ぱ パ & pa &&& pa \\ \hline
+                ぴ ピ & pi &&& pi \\ \hline
+                ぷ プ & pu &&& pu \\ \hline
+                ぺ ペ & pe &&& pe \\ \hline
+                ぽ ポ & po &&& po \\ \hline
+                ま マ & ma &&& ma \\ \hline
+                み ミ & mi &&& mi \\ \hline
+                む ム & mu &&& mu \\ \hline
+                め メ & me &&& me \\ \hline
+                も モ & mo &&& mo \\ \hline
+                や ヤ & ya &&& ya \\ \hline
+                ゆ ユ & yu &&& yu \\ \hline
+                よ ヨ & yo &&& yo \\ \hline
+                ら ラ & ra &&& ra \\ \hline
+                り リ & ri &&& ri \\ \hline
+                る ル & ru &&& ru \\ \hline
+                れ レ & re &&& re \\ \hline
+                ろ ロ & ro &&& ro \\ \hline
+                わ ワ & wa &&& wa \\ \hline
+                ゐ ヰ & wi &&& wi, wyi \\ \hline
+                %※ This kana is not used in modern Japanese.\\ \hline
+                ゑ ヱ & we &&& we, wye \\ \hline
+                %※ This kana is not used in modern Japanese.\\ \hline
+                を ヲ & o &&& wo \\ \hline
+                ん ン & n &&& n, n', nn \\ \hline
+                %Yōon. See What is yōon? \\ \hline
+                きゃ キャ & kya &&& kya \\ \hline
+                きゅ キュ & kyu &&& kyu \\ \hline
+                きょ キョ & kyo &&& kyo \\ \hline
+                ぎゃ ギャ & gya &&& gya \\ \hline
+                ぎゅ ギュ & gyu &&& gyu \\ \hline
+                ぎょ ギョ & gyo &&& gyo \\ \hline
+                しゃ シャ & sya && sha & sha, sya \\ \hline
+                しゅ シュ & syu && shu & shu, syu \\ \hline
+                しょ ショ & syo && sho & sho, syo \\ \hline
+                じゃ ジャ & zya && ja & ja, jya, zya \\ \hline
+                じゅ ジュ & zyu && ju & ju, jyu, zyu \\ \hline
+                じょ ジョ & zyo && jo & jo, jyo, zyo \\ \hline
+                ちゃ チャ & tya && cha & cha, cya, tya \\ \hline
+                ちゅ チュ & tyu && chu & chu, cyu, tyu \\ \hline
+                ちょ チョ & tyo && cho & cho, cyo, tyo \\ \hline
+                ぢゃ ヂャ & dya & zya & ja & dha, dya \\ \hline
+                ぢゅ ヂュ & dyu & zyu & ju & dhu, dyu \\ \hline
+                ぢょ ヂョ & dyo & zyo & jo & dho, dyo \\ \hline
+                にゃ ニャ & nya &&& nya \\ \hline
+                にゅ ニュ & nyu &&& nyu \\ \hline
+                にょ ニョ & nyo &&& nyo \\ \hline
+                ひゃ ヒャ & hya &&& hya \\ \hline
+                ひゅ ヒュ & hyu &&& hyu \\ \hline
+                ひょ ヒョ & hyo &&& hyo \\ \hline
+                びゃ ビャ & bya &&& bya \\ \hline
+                びゅ ビュ & byu &&& byu \\ \hline
+                びょ ビョ & byo &&& byo \\ \hline
+                ぴゃ ピャ & pya &&& pya \\ \hline
+                ぴゅ ピュ & pyu &&& pyu \\ \hline
+                ぴょ ピョ & pyo &&& pyo \\ \hline
+                みゃ ミャ & mya &&& mya \\ \hline
+                みゅ ミュ & myu &&& myu \\ \hline
+                みょ ミョ & myo &&& myo \\ \hline
+                りゃ リャ & rya &&& rya \\ \hline
+                りゅ リュ & ryu &&& ryu \\ \hline
+                りょ リョ & ryo &&& ryo \\ \hline
+                %Long vowels \\ \hline
+                ちょう チョウ & tyô && chō & chou \\ \hline
+                りょう リョウ & ryô && ryō & ryou \\ \hline
+                おう オウ & ô && ō & ou \\ \hline
+                %※ Also often romanized as "oh", as in "Itoh" for the name 伊藤.\\ \hline
+                うう ウウ & û && ū & uu \\ \hline
+                %※ May be romanized as "uh", copying "oh" for おう. This is non-standard. \\ \hline
+                %Kana combinations used to represent foreign words \\ \hline
+                ぁ ァ & / &&& la, xa \\ \hline
+                ぃ ィ & / &&& li, lyi, xi \\ \hline
+                いぇ イェ & / &&& ye \\ \hline
+                ぅ ゥ & / &&& lu, xu \\ \hline
+                うぃ ウィ & / &&& whi \\ \hline
+                うぇ ウェ & / &&& whe \\ \hline
+                うぉ ウォ & / &&& who \\ \hline
+                ぇ ェ & / &&& le, lye, xe \\ \hline
+                ぉ ォ & / &&& lo, xo \\ \hline
+                きぃ キィ & / &&& kyi \\ \hline
+                きぇ キェ & / &&& kye \\ \hline
+                くぁ クァ & / &&& kwa, qa \\ \hline
+                くぃ クィ & / &&& kwi, qi \\ \hline
+                くぅ クゥ & / &&& kwu \\ \hline
+                くぇ クェ & / &&& kwe, qe \\ \hline
+                くぉ クォ & / &&& kwo, qo \\ \hline
+                ぐぁ グァ & / &&& gwa \\ \hline
+                しぇ シェ & / &&& she, sye \\ \hline
+                じぃ ジィ & / &&& jyi \\ \hline
+                じぇ ジェ & / &&& je, jye, zye \\ \hline
+                ちぇ チェ & / &&& che, tye \\ \hline
+                ぢぃ ヂィ & / &&& dyi \\ \hline
+                ぢぇ ヂェ & / &&& dhe, dye \\ \hline
+                っ ッ & / &&& xtu \\ \hline
+                つぁ ツァ & / &&& tsa \\ \hline
+                つぃ ツィ & / &&& tsi \\ \hline
+                つぇ ツェ & / &&& tse \\ \hline
+                つぉ ツォ & / &&& tso \\ \hline
+                てぃ ティ & / &&& t'i, thi \\ \hline
+                てゅ テュ & / &&& t'yu, thu \\ \hline
+                でぃ ディ & / &&& d'i \\ \hline
+                でゅ デュ & / &&& d'yu \\ \hline
+                とぅ トゥ & / &&& t'u, twu \\ \hline
+                どぅ ドゥ & / &&& d'u, dwu \\ \hline
+                にぃ ニィ & / &&& nyi \\ \hline
+                にぇ ニェ & / &&& nye \\ \hline
+                ひぃ ヒィ & / &&& hyi \\ \hline
+                ひぇ ヒェ & / &&& hye \\ \hline
+                びぇ ビェ & / &&& bye \\ \hline
+                ぴぃ ピィ & / &&& pyi \\ \hline
+                ぴぇ ピェ & / &&& pye \\ \hline
+                ふぁ ファ & / &&& fa, hwa \\ \hline
+                ふぃ フィ & / &&& fi, fyi, hwi \\ \hline
+                ふぇ フェ & / &&& fe, fye, hwe \\ \hline
+                ふぉ フォ & / &&& fo, hwo \\ \hline
+                ふゃ フャ & / &&& fya \\ \hline
+                ふゅ フュ & / &&& fyu, hwyu \\ \hline
+                ふょ フョ & / &&& fyo \\ \hline
+                みぃ ミィ & / &&& myi \\ \hline
+                みぇ ミェ & / &&& mye \\ \hline
+                ゃ ャ & / &&& lya, xya \\ \hline
+                ゅ ュ & / &&& lyu, xyu \\ \hline
+                ょ ョ & / &&& lyo, xyo \\ \hline
+                りぃ リィ & / &&& ryi \\ \hline
+                りぇ リェ & / &&& rye \\ \hline
+                ゎ ヮ & / &&& xwa \\ \hline
+                ゔ ヴ & / &&& vu \\ \hline
+                ゔぁ ヴァ & / &&& va \\ \hline
+                ゔぃ ヴィ & / &&& vi \\ \hline
+                ゔぇ ヴェ & / &&& ve \\ \hline
+                ゔぉ ヴォ & / &&& vo \\ \hline
+                ゔゅ ヴュ & / &&& vyu \\ \hline
+                ヵ ヵ & / &&& xka \\ \hline
+                ヶ ヶ & / &&& xke \\ \hline
+                ー ー & / &&& -, \string^ \\ \hline
+            \end{longtable}
+            \end{japanese}
+        \end{center}
+
+        \textbf{Nota}: \textjapanese{おう} e \textjapanese{うう} possono essere romanizzati anche come \textjapanese{oh}
+        e \textjapanese{uh}, rispettivamente, ma non sono scritture standard.
+
+\end{document}
