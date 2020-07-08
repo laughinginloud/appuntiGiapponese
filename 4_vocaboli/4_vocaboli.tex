@@ -1,0 +1,92 @@
+\documentclass{article}
+
+\usepackage{polyglossia}
+\setmainlanguage{italian}
+\setotherlanguage{japanese}
+\newfontfamily\japanesefont{BIZ UDGothic}
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{multirow, longtable}
+\renewcommand{\arraystretch}{1.5}
+
+\title{Vocaboli}
+\author{Mattia Martelli}
+\date{}
+
+\usepackage{hyperref}
+\hypersetup{
+    unicode=true,
+    bookmarksnumbered=true,
+    bookmarksopen=false,
+    hidelinks,
+    pdfauthor={Mattia Martelli},
+    pdftitle={Kanji}
+}
+
+\let\ita\textitalian
+\newcommand{\itabf}[1]{\ita{\textbf{#1}}}
+
+\begin{document}
+    
+    \maketitle
+
+    %\tableofcontents
+
+    \begin{center}
+        \begin{japanese}
+            \begin{longtable}{|c|c|c|}
+                \hline
+                \itabf{Vocabolo} & \itabf{Pronuncia} & \itabf{Significato}\\
+                \hline\hline
+                アメリカ人 & アメリカ・じん & \ita{Americano (persona)}\\
+                \hline
+                フランス人 & フランス・じん & \ita{Francese (persona)}\\
+                \hline
+                日本 & に・ほん & \ita{Giappone}\\
+                \hline
+                本 & ほん & \ita{Libro}\\
+                \hline
+                高い & たか・い & \ita{Alto, costoso}\\
+                \hline
+                学校 & がっ・こう & \ita{Scuola}\\
+                \hline
+                高校 & こう・こう & \ita{Scuola superiore}\\
+                \hline
+                小さい & ちい・さい & \ita{Piccolo}\\
+                \hline
+                大きい & おお・きい & \ita{Grande}\\
+                \hline
+                小学校 & しょう・がっ・こう & \ita{Scuola elementare}\\
+                \hline
+                中学校 & ちゅう・がっ・こう & \ita{Scuola media}\\
+                \hline
+                大学 & だい・がく & \ita{College, università}\\
+                \hline
+                小学生 & しょう・がく・せい & \ita{Studente di scuola elementare}\\
+                \hline
+                中学生 & ちゅう・がく・せい & \ita{Studente di scuola media}\\
+                \hline
+                大学生 & だい・がく・せい & \ita{Studente universitario}\\
+                \hline
+                国 & くに & \ita{Paese}\\
+                \hline
+                中国 & ちゅう・ごく & \ita{Cina}\\
+                \hline
+                中国人 & ちゅう・ごく・じん & \ita{Cinese (persona)}\\
+                \hline
+                日本語 & に・ほん・ご & \ita{Lingua giapponese}\\
+                \hline
+                中国語 & ちゅう・ごく・ご & \ita{Lingua cinese}\\
+                \hline
+                英語 & えい・ご & \ita{Lingua inglese}\\
+                \hline
+                フランス語 & フランス・ご & \ita{Lingua francese}\\
+                \hline
+                スペイン語 & スペイン・ご & \ita{Lingua spagnola}\\
+                \hline
+            \end{longtable}
+        \end{japanese}
+    \end{center}
+
+\end{document}
