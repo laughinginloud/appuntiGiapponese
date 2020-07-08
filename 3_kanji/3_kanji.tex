@@ -1,0 +1,79 @@
+\documentclass{article}
+
+\usepackage{polyglossia}
+\setmainlanguage{italian}
+\setotherlanguage{japanese}
+\newfontfamily\japanesefont{BIZ UDGothic}
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{multirow, longtable}
+\renewcommand{\arraystretch}{1.5}
+
+\title{Kanji}
+\author{Mattia Martelli}
+\date{}
+
+\usepackage{hyperref}
+\hypersetup{
+    unicode=true,
+    bookmarksnumbered=true,
+    bookmarksopen=false,
+    hidelinks,
+    pdfauthor={Mattia Martelli},
+    pdftitle={Kanji}
+}
+
+\let\ita\textitalian
+\newcommand{\itabf}[1]{\ita{\textbf{#1}}}
+
+\begin{document}
+    
+    \maketitle
+
+    In alcuni casi sono inclusi nelle pronuncie anche i kana aggiuntivi utili a dare il significato specificato.
+    Questo è detto okurigana.
+
+    \begin{center}
+        \begin{japanese}
+            \begin{longtable}{|c|c|c|c|c|}
+                \hline
+                \itabf{Kanji} & \itabf{Kun-yomi} & \itabf{On-yomi} & \itabf{Significato}\\
+                \hline\hline
+                人 & ひと & ジン & \ita{Persona}\\
+                \hline
+                日 & / & ニ & \ita{Sole, giorno}\\
+                \hline
+                本 & / & ホン & \ita{Origine, libro}\\
+                \hline
+                学 & / & ガク & \ita{Accademico}\\
+                \hline
+                先 & / & セン & \ita{Avanti, precedenza}\\
+                \hline
+                生 & / & セイ & \ita{Vita}\\
+                \hline
+                高 & たか・い & コウ & \ita{Alto, costoso}\\
+                \hline
+                校 & / & コウ & \ita{Scuola}\\
+                \hline
+                小 & ちい・さい & ショウ & \ita{Piccolo}\\
+                \hline
+                中 & / & チュウ & \ita{Medio, dentro}\\
+                \hline
+                大 & おお・きい & ダイ & \ita{Grande}\\
+                \hline
+                国 & くに & コク & \ita{Paese}\\
+                \hline
+                英 & / & エイ & \ita{Inghilterra}\\
+                \hline
+                語 & / & ゴ & \ita{Lingua}\\
+                \hline
+                暑 & あつ・い & / & \ita{Caldo (solo clima)}\\
+                \hline
+                熱 & あつ・い、ねつ & / & \ita{Calore, febbre}\\
+                \hline
+            \end{longtable}
+        \end{japanese}
+    \end{center}
+
+\end{document}
