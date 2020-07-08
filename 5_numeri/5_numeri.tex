@@ -1,0 +1,121 @@
+\documentclass{article}
+
+\usepackage{polyglossia}
+\setmainlanguage{italian}
+\setotherlanguage{japanese}
+\newfontfamily\japanesefont{BIZ UDGothic}
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{multirow,longtable}
+\renewcommand{\arraystretch}{1.5}
+
+\title{Numeri}
+\author{Mattia Martelli}
+\date{}
+
+\usepackage{hyperref}
+\hypersetup{
+    unicode=true,
+    bookmarksnumbered=true,
+    bookmarksopen=false,
+    hidelinks,
+    pdfauthor={Mattia Martelli},
+    pdftitle={Numeri}
+}
+
+\let\ita\textitalian
+\newcommand{\itabf}[1]{\ita{\textbf{#1}}}
+\newenvironment{tabJap}{\begin{center}\begin{japanese}\begin{longtable}{|c|c|c|}}{\end{longtable}\end{japanese}\end{center}}
+
+\begin{document}
+
+    \maketitle
+
+    \tableofcontents
+
+    \section{Da 1 a 10}
+
+        Per alcuni numeri esistono varie pronuncie. Quelle in grassetto sono quelle più utilizzate.
+
+        \begin{tabJap}
+            \hline
+            \itabf{Numero} & \itabf{Kanji} & \itabf{Pronuncia}\\
+            \hline\hline
+            1 & 一 & いち\\
+            \hline
+            2 & ニ & に\\
+            \hline
+            3 & 三 & さん\\
+            \hline
+            4 & 四 & し、\textbf{よん}\\
+            \hline
+            5 & 五 & ご\\
+            \hline
+            6 & 六 & ろく\\
+            \hline
+            7 & 七 & しち、\textbf{なな}\\
+            \hline
+            8 & 八 & はち\\
+            \hline
+            9 & 九 & きゅう\\
+            \hline
+            10 & 十 & じゅう\\
+            \hline
+        \end{tabJap}
+
+    \newpage
+
+    \section{Da 11 a 99}
+
+        Per contare da 11 fino a 99 basta usare il kanji \textjapanese{十} come contatore.
+        Esempi:
+
+        \begin{tabJap}
+            \hline
+            \itabf{Numero} & \itabf{Scrittura} & \itabf{Pronuncia}\\
+            \hline\hline
+            11 & 十一 & じゅう・いち\\
+            \hline
+            20 & 二十 & に・じゅう\\
+            \hline
+            21 & 二十一 & に・じゅう・いち\\
+            \hline
+            39 & 三十九 & さん・じゅう・きゅう\\
+            \hline
+            40 & 四十 & よん・じゅう\\
+            \hline
+            74 & 七十四 & なな・じゅう・よん\\
+            \hline
+            99 & 九十九 & きゅう・じゅう・きゅう\\
+            \hline
+        \end{tabJap}
+
+    \section{Età}
+
+        Per indicare l'età si aggiunge alla fine il kanji \textjapanese{歳}, pronunciato \textjapanese{さい}, che fa
+        da contatore. Alle volte si scrive il kanji \textjapanese{才}, in quanto più semplice, anche se è un carattere
+        completamente diverso. Esempi:
+
+        \begin{tabJap}
+            \hline
+            \itabf{Età} & \itabf{Scrittura} & \itabf{Pronuncia}\\
+            \hline\hline
+            21 & 二十一歳 & に・じゅう・いっ・さい\\
+            \hline
+            48 & 四十八歳 & よん・じゅう・はっ・さい\\
+            \hline
+            70 & 七十歳 & なな・じゅっ・さい\\
+            \hline\hline
+            \multicolumn{3}{|c|}{\itabf{Forme irregolari}}\\
+            \hline\hline
+            1 & 一歳 & いっ・さい\\
+            \hline
+            8 & 八歳 & はっ・さい\\
+            \hline
+            10 & 十歳 & じゅっ・さい\\
+            \hline
+            20 & 二十歳 & はたち\\
+            \hline
+        \end{tabJap}
+\end{document}
