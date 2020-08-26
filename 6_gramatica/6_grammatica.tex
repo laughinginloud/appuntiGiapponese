@@ -1,0 +1,224 @@
+\documentclass{article}
+
+\usepackage{polyglossia}
+\setmainlanguage{italian}
+\setotherlanguage{japanese}
+\newfontfamily\japanesefont{BIZ UDGothic}
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{multirow,longtable}
+\renewcommand{\arraystretch}{1.5}
+
+\title{Grammatica}
+\author{Mattia Martelli}
+\date{}
+
+\usepackage{hyperref}
+\hypersetup{
+    unicode=true,
+    bookmarksnumbered=true,
+    bookmarksopen=false,
+    hidelinks,
+    pdfauthor={Mattia Martelli},
+    pdftitle={Grammatica}
+}
+
+\let\ita\textitalian
+\let\jap\textjapanese
+\newcommand{\itabf}[1]{\ita{\textbf{#1}}}
+\newenvironment{tabVoc}{\begin{center}\begin{japanese}\begin{longtable}{|c|c|c|}}{\end{longtable}\end{japanese}\end{center}}
+
+\begin{document}
+
+    \maketitle
+
+    \tableofcontents
+    
+    \section{Stato dell'essere}
+
+        \subsection{Positivo}
+
+            \begin{tabVoc}
+                \hline
+                \multicolumn{3}{|c|}{\itabf{Vocaboli}}\\
+                \hline
+                \itabf{Kanji} & \itabf{Pronuncia} & \itabf{Significato}\\
+                \hline\hline
+                人 & ひと & \ita{Persona}\\
+                \hline
+                学生 & がく・せい & \ita{Studente}\\
+                \hline
+                元気 & げん・き & \ita{In salute, vivace}\\
+                \hline
+            \end{tabVoc}
+
+            Per esprimere l'esistenza di qualcosa si attacca in fondo al nome oppure al na-aggettivo il kana \jap{だ}. Questo può però
+            essere implicitato, soprattutto in un contesto informale.
+
+            Esempi:
+            \begin{enumerate}
+                \item \jap{人だ}: è persona;
+                \item \jap{学生だ}: è studente;
+                \item \jap{元気だ}: è in salute;
+                    \begin{enumerate}
+                        \item \jap{元気?}: Stai bene?
+                        \item \jap{元気}: Sto bene.
+                    \end{enumerate}
+            \end{enumerate}
+
+        \subsection{Negativo}
+
+            \begin{tabVoc}
+                \hline
+                \multicolumn{3}{|c|}{\itabf{Vocaboli}}\\
+                \hline
+                \itabf{Kanji} & \itabf{Pronuncia} & \itabf{Significato}\\
+                \hline\hline
+                学生 & がく・せい & \ita{Studente}\\
+                \hline
+                友達 & とも・だち & \ita{Amico}\\
+                \hline
+                元気 & げん・き & \ita{In salute, vivace}\\
+                \hline
+            \end{tabVoc}
+
+            Per esprimere la non esistenza di qualcosa si attacca in fondo al nome oppure al na-aggettivo \jap{じゃない}.
+
+            Esempi:
+            \begin{enumerate}
+                \item \jap{学生じゃない}: non è studente;
+                \item \jap{友達じゃない}: non è amico;
+                \item \jap{元気じゃない}: non è in salute.
+            \end{enumerate}
+
+        \subsection{Passato}
+
+            \begin{tabVoc}
+                \hline
+                \multicolumn{3}{|c|}{\itabf{Vocaboli}}\\
+                \hline
+                \itabf{Kanji} & \itabf{Pronuncia} & \itabf{Significato}\\
+                \hline\hline
+                学生 & がく・せい & \ita{Studente}\\
+                \hline
+                友達 & とも・だち & \ita{Amico}\\
+                \hline
+                元気 & げん・き & \ita{In salute, vivace}\\
+                \hline
+            \end{tabVoc}
+
+            Per esprimere la passata esistenza di qualcosa si attacca in fondo al nome oppure al na-aggettivo \jap{だつた}. Per il passato
+            negativo, si sostituisce il kana \jap{い} da \jap{じゃない} con \jap{かつた}.
+
+            Esempi:
+            \begin{enumerate}
+                \item \jap{学生だつた}: era studente;
+                \item \jap{友達じゃなかつた}: non era amico;
+                \item \jap{元気じゃなかつた}: non era in salute.
+            \end{enumerate}
+
+    \section{Particelle}
+
+        \subsection{La particella di argomento \jap{は}}
+
+            \begin{tabVoc}
+                \hline
+                \multicolumn{3}{|c|}{\itabf{Vocaboli}}\\
+                \hline
+                \itabf{Kanji} & \itabf{Pronuncia} & \itabf{Significato}\\
+                \hline\hline
+                学生 & がく・せい & \ita{Studente}\\
+                \hline
+                / & うん & \ita{Sì (informale)}\\
+                \hline
+                / & ううん & \ita{No (informale)}\\
+                \hline
+                明日 & あした & \ita{Domani}\\
+                \hline
+                今日 & きょう & \ita{Oggi}\\
+                \hline
+                試験 & しけん & \ita{Esame}\\
+                \hline
+            \end{tabVoc}
+
+            La particella \jap{は}, pronuciata \jap{わ}, si usa per definire l'argomento della frase.
+
+            \subsubsection*{Primo esempio}
+
+                \begin{itemize}
+                    \item \jap{ボブ:アリスは学生?} (Bob: È Alice (tu) una studentessa?)
+                    \item \jap{アリス:うん、学生。} (Alice: Sì, (lo) sono.)
+                \end{itemize}
+
+                Bob indica che la domanda riguarda Alice, che a questo punto non deve ripetere l'argomento per rispondere.
+
+            \subsubsection*{Secondo esempio}
+
+                \begin{itemize}
+                    \item \jap{ボブ:ジョンは明日?} (Bob: È John domani?)
+                    \item \jap{アリス:ううん、明日じゃない。} (Alice: No, non domani.)
+                \end{itemize}
+
+                La conversazione è corretta, per quanto insensata senza contesto, il quale è stato implicitato.
+
+            \subsubsection*{Terzo esempio}
+
+                \begin{itemize}
+                    \item \jap{アリス:今日は試験だ。} (Alice: L'esame è oggi.)
+                    \item \jap{ボブ:ジョンは?} (Bob: Riguardo John?)
+                    \item \jap{アリス:ジョンは明日} (Alice: John è domani.)
+                \end{itemize}
+
+                La particella è molto generica, in quanto può riferirsi ad argomenti anche di altre frasi. Infatti, l'ultima frase,
+                anche se riferita all'esame di John, non presenta nemmeno la parola ``esame''.
+
+        \subsection{La particella di argomento inclusiva \jap{も}}
+
+            \begin{tabVoc}
+                \hline
+                \multicolumn{3}{|c|}{\itabf{Vocaboli}}\\
+                \hline
+                \itabf{Kanji} & \itabf{Pronuncia} & \itabf{Significato}\\
+                \hline\hline
+                学生 & がく・せい & \ita{Studente}\\
+                \hline
+                / & うん & \ita{Sì (informale)}\\
+                \hline
+                / & ううん & \ita{No (informale)}\\
+                \hline
+                / & でも & \ita{Ma}\\
+                \hline
+            \end{tabVoc}
+
+            La particella \jap{も} è molto simile alla precedente \jap{は} e si usa per introdurre un ulteriore argomento nella
+            conversazione.
+
+            \subsubsection*{Primo esempio}
+
+                \begin{itemize}
+                    \item \jap{ボブ:アリスは学生?} (Bob: È Alice (tu) una studentessa?)
+                    \item \jap{アリス:うん、トムも学生。} (Alice: Sì, ed anche Tom è uno studente.)
+                \end{itemize}
+
+                La particella deve essere usata coerentemente con la risposta: avrebbe poco senso dire ``sì, ed anche Tom non lo è''.
+
+            \subsubsection*{Secondo esempio}
+
+                \begin{itemize}
+                    \item \jap{ボブ:アリスは学生?} (Bob: È Alice (tu) una studentessa?)
+                    \item \jap{アリス:うん、でもトムは学生じゃない。} (Alice: Sì, ma Tom non è uno studente.)
+                \end{itemize}
+
+                In questo caso si usa \jap{は} in quanto la risposta muta argomento.
+
+            \subsubsection*{Terzo esempio}
+
+                \begin{itemize}
+                    \item \jap{ボブ:アリスは学生?} (Bob: È Alice (tu) una studentessa?)
+                    \item \jap{アリス:ううん、トムも学生じゃない。} (Alice: No, e neanche Tom è uno studente.)
+                \end{itemize}
+
+                Essendo la risposta coerente, si usa \jap{も}.
+        
+\end{document}
